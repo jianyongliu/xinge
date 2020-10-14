@@ -8,10 +8,8 @@
 const siteConfig = {
   title: '新哥日语',
   tagline: '新哥日语笔记，轻轻松松学日语，开开心心看日漫',
-  url: 'https://jianyongliu.github.io',
-  baseUrl: '/xinge/',
-  projectName: 'xinge',
-  organizationName: 'jianyongliu',
+  url: 'https://xinge.vercel.app',
+  baseUrl: '/',
   favicon: 'img/favicon/favicon.ico',
   presets: [
     [
