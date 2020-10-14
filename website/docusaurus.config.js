@@ -6,8 +6,8 @@
  */
 
 const siteConfig = {
-  title: 'Create React App',
-  tagline: 'Set up a modern web app by running one command.',
+  title: '新哥日语',
+  tagline: '新哥日语笔记，轻轻松松学日语，开开心心看日漫',
   url: 'https://jianyongliu.github.io',
   baseUrl: '/xinge/',
   projectName: 'xinge',
@@ -38,21 +38,21 @@ const siteConfig = {
       indexName: 'create-react-app',
     },
     navbar: {
-      title: 'Create React App',
+      title: '新哥日语',
       logo: {
-        alt: 'Create React App Logo',
+        alt: '新哥日语',
         src: 'img/logo.svg',
       },
       links: [
-        { to: 'docs/getting-started', label: 'Docs', position: 'right' },
+        { to: 'docs/getting-started', label: '笔记', position: 'right' },
         {
-          href: 'https://reactjs.org/community/support.html',
-          label: 'Help',
+          href: 'https://github.com/jianyongliu/xinge',
+          label: '帮助',
           position: 'right',
         },
         {
-          href: 'https://www.github.com/facebook/create-react-app',
-          label: 'GitHub',
+          href: 'https://github.com/jianyongliu/xinge',
+          label: '源码',
           position: 'right',
         },
       ],
@@ -61,47 +61,37 @@ const siteConfig = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '笔记',
           items: [
             {
-              label: 'Get Started',
+              label: '开始',
               to: 'docs/getting-started',
             },
             {
-              label: 'Learn React',
-              href: 'https://reactjs.org/',
+              label: '考级',
+              href: 'https://jp.izaodao.com/Index/Teacher/show?uid=28114746',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '其他',
           items: [
             {
-              label: 'Stack Overflow',
-              href:
-                'https://stackoverflow.com/questions/tagged/create-react-app',
+              label: '动漫',
+              href: 'https://jp.izaodao.com/Index/Teacher/show?uid=28114746',
             },
             {
-              label: 'GitHub Discussions',
-              href: 'https://github.com/facebook/create-react-app/discussions',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/reactjs',
-            },
-            {
-              label: 'Contributor Covenant',
-              href:
-                'https://www.contributor-covenant.org/version/1/4/code-of-conduct',
+              label: '电影',
+              href: 'https://jp.izaodao.com/Index/Teacher/show?uid=28114746',
             },
           ],
         },
         {
-          title: 'Social',
+          title: '课堂',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://www.github.com/facebook/create-react-app',
+              label: '我的在线课堂',
+              href: 'https://jp.izaodao.com/Index/Teacher/show?uid=28114746',
             },
           ],
         },
@@ -110,7 +100,7 @@ const siteConfig = {
         alt: 'Facebook Open Source Logo',
         src: 'img/oss_logo.png',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 新哥小姐姐`,
     },
   },
 };

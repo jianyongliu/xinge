@@ -19,17 +19,17 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Less to Learn',
+    title: '简单',
     content:
       "You don't need to learn and configure many build tools. Instant reloads help you focus on development. When it's time to deploy, your bundles are optimized automatically.",
   },
   {
-    title: 'Only One Dependency',
+    title: '生动',
     content:
       'Your app only needs one build dependency. We test Create React App to make sure that all of its underlying pieces work together seamlessly – no complicated version mismatches.',
   },
   {
-    title: 'No Lock-In',
+    title: '有趣',
     content:
       'Under the hood, we use webpack, Babel, ESLint, and other amazing projects to power your app. If you ever want an advanced configuration, you can ”eject” from Create React App and edit their config files directly.',
   },
@@ -42,7 +42,7 @@ function Home() {
   return (
     <Layout
       permalink={'/'}
-      description={'Set up a modern web app by running one command.'}
+      description={'新哥日语笔记'}
     >
       <div className={classnames('hero hero--dark', styles.heroBanner)}>
         <div className="container">
@@ -58,7 +58,7 @@ function Home() {
               className="button button--outline button--primary button--lg"
               to={useBaseUrl('docs/getting-started')}
             >
-              Get Started
+              开始吧
             </Link>
           </div>
         </div>
@@ -80,7 +80,7 @@ function Home() {
           </div>
         </div>
       )}
-      <div className={styles.gettingStartedSection}>
+{/*       <div className={styles.gettingStartedSection}>
         <div className="container padding-vert--xl text--left">
           <div className="row">
             <div className="col col--4 col--offset-1">
@@ -132,7 +132,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 }
